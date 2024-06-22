@@ -14,7 +14,7 @@ export default function BlogGrid() {
 
             <div>
                 <div>
-                    <section className="blog-grid">
+                    <section className="blog-grid" id="events">
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-4 col-md-6 col-12">
@@ -119,10 +119,10 @@ export default function BlogGrid() {
                                 <div className="col-12">
                                     <div className="action__body" data-aos="fade-up">
                                         <div className="block-text">
-                                            <h3 className="mb-13">Create Your NFT Portfolio</h3>
-                                            <p className="fs-21 mb-7">Get udpated with news, tips &amp; tricks</p>
+                                            <h3 className="mb-13">Looking for Aptos ENS Gateway?</h3>
+                                            <p className="fs-21 mb-7">Click the button to enter the Aptos ENS Gateway management UI</p>
                                         </div>
-                                        <Link href="/contact" className="btn-action style-2">Join Now</Link>
+                                        <Link href="https://aptos-ens.chom.dev" target="_blank" className="btn-action style-2">Enter</Link>
                                     </div>
                                 </div>
                             </div>

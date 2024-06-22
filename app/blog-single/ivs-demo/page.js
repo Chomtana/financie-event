@@ -1,4 +1,5 @@
 
+import EventSidebar from "@/components/event/EventSidebar"
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function BlogSingle() {
@@ -70,7 +71,7 @@ export default function BlogSingle() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="blog-content post">
+                                        <div className="blog-content post d-none">
                                             <img src="/assets/images/blog/avt.jpg" alt="AI-Mint" />
                                             <div className="post-right">
                                                 <div className="info">
@@ -85,7 +86,7 @@ export default function BlogSingle() {
                                                 <Link className="btn-post" href="#">View All Posts <i className="fa fa-angle-double-right" /></Link>
                                             </div>
                                         </div>
-                                        <div className="blog-content comment">
+                                        <div className="blog-content comment d-none">
                                             <h3 className="fs-36">20 Comments</h3>
                                             <div className="comment-box mt-0">
                                                 <img src="/assets/images/blog/avt1.jpg" alt="AI-Mint" />
@@ -157,79 +158,17 @@ export default function BlogSingle() {
                                     </div>
                                 </div>
                                 <div className="col-xl-3 col-md-12">
-                                    <div className="side-bar">
-                                        <div className="side-bar__box">
-                                            <h6 className="title">Search</h6>
-                                            <div className="input-group">
-                                                <div className="form-outline">
-                                                    <input type="search" id="form1" className="form-control" placeholder="Type & hit enter" required />
-                                                </div>
-                                                <button type="button" className="btn btn-primary">
-                                                    <i className="fas fa-search" />
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <div className="side-bar__box">
-                                            <h6 className="title">Recent Posts</h6>
-                                            <ul className="recent">
-                                                <li>
-                                                    <Link href="/blog-single"><img src="/assets/images/blog/blog-04.jpg" alt="AI-Mint" /></Link>
-                                                    <div className="info">
-                                                        <Link href="/blog-single" className="fs-18">Buy your NFT today</Link>
-                                                        <p className="fs-14">Feb 07</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <Link href="/blog-single"><img src="/assets/images/blog/blog-05.jpg" alt="AI-Mint" /></Link>
-                                                    <div className="info">
-                                                        <Link href="/blog-single" className="fs-18">How to make blockcahin</Link>
-                                                        <p className="fs-14">Feb 07</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <Link href="/blog-single"><img src="/assets/images/blog/blog-06.jpg" alt="AI-Mint" /></Link>
-                                                    <div className="info">
-                                                        <Link href="/blog-single" className="fs-18">When the musics over </Link>
-                                                        <p className="fs-14">Feb 07</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="side-bar__box">
-                                            <h6 className="title">Categories</h6>
-                                            <ul className="category">
-                                                <li><Link className="fs-18" href="#"><i className="fas fa-caret-right" />Cryptocurrency</Link></li>
-                                                <li><Link className="fs-18" href="#"><i className="fas fa-caret-right" />Block Chain</Link></li>
-                                                <li><Link className="fs-18" href="#"><i className="fas fa-caret-right" />Bit Coin</Link></li>
-                                                <li><Link className="fs-18" href="#"><i className="fas fa-caret-right" />Eatherium</Link></li>
-                                                <li><Link className="fs-18" href="#"><i className="fas fa-caret-right" />NFT Market</Link></li>
-                                                <li><Link className="fs-18" href="#"><i className="fas fa-caret-right" />Buy Sale</Link></li>
-                                                <li><Link className="fs-18" href="#"><i className="fas fa-caret-right" />Online Trading</Link></li>
-                                                <li><Link className="fs-18" href="#"><i className="fas fa-caret-right" />Crypto Trade</Link></li>
-                                            </ul>
-                                        </div>
-                                        <div className="side-bar__box">
-                                            <h6 className="title">Tags</h6>
-                                            <ul className="tag">
-                                                <li><Link className="fs-18" href="#">Crypto</Link></li>
-                                                <li><Link className="fs-18" href="#">Blockchain</Link></li>
-                                                <li><Link className="fs-18" href="#">NFT</Link></li>
-                                                <li><Link className="fs-18" href="#">Ether</Link></li>
-                                                <li><Link className="fs-18" href="#">Ico</Link></li>
-                                                <li><Link className="fs-18" href="#">Ethereum</Link></li>
-                                                <li><Link className="fs-18" href="#">Bitcoin</Link></li>
-                                                <li><Link className="fs-18" href="#">NFT Trading</Link></li>
-                                                <li><Link className="fs-18" href="#">Media</Link></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                    <EventSidebar
+                                        title="IVS Demo Day"
+                                        id="ivs-demo"
+                                    ></EventSidebar>
                                 </div>
                             </div>
                         </div>
                     </section>
                     {/* end Blog single */}
                     {/* Action */}
-                    <section className="tf-section action">
+                    {/* <section className="tf-section action">
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">
@@ -243,7 +182,7 @@ export default function BlogSingle() {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                 </div>
 
 

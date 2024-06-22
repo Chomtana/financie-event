@@ -74,12 +74,12 @@ export default function HeroSlider1() {
                                 </p>
 
                                 {true ? (
-                                    <div class="d-flex gap-4">
-                                        <Link href="collections" className="btn-action style-2" data-aos="fade-up" data-aos-duration={1200}>
+                                    <div class="d-flex flex-column flex-lg-row gap-4">
+                                        <Link href="#events" className="btn-action style-2 text-center" data-aos="fade-up" data-aos-duration={1200}>
                                             Discover Events
                                         </Link>
 
-                                        <Link href="collections" className="btn-action style-2" data-aos="fade-up" data-aos-duration={1200}>
+                                        <Link href="https://aptos-ens.chom.dev" target="_blank" className="btn-action style-2 text-center" data-aos="fade-up" data-aos-duration={1200}>
                                             Aptos ENS Gateway
                                         </Link>
                                     </div>
@@ -132,7 +132,7 @@ export default function HeroSlider1() {
                                 )}
                             </div>
                         </div>
-                        <div className="col-xl-6 col-md-6 col-12">
+                        <div className="col-xl-6 col-md-6 col-12 d-none d-md-block">
                             <div className="content-right d-flex">
                                 <div className="swiper-container swiper mySwiper1 swiper-h">
                                     <Swiper {...swiperOptions1} className="swiper-wrapper">

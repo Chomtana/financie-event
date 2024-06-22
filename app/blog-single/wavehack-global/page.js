@@ -61,7 +61,7 @@ export default function BlogSingle() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="blog-content post">
+                                        <div className="blog-content post d-none">
                                             <img src="/assets/images/blog/avt.jpg" alt="AI-Mint" />
                                             <div className="post-right">
                                                 <div className="info">
@@ -76,7 +76,7 @@ export default function BlogSingle() {
                                                 <Link className="btn-post" href="#">View All Posts <i className="fa fa-angle-double-right" /></Link>
                                             </div>
                                         </div>
-                                        <div className="blog-content comment">
+                                        <div className="blog-content comment d-none">
                                             <h3 className="fs-36">20 Comments</h3>
                                             <div className="comment-box mt-0">
                                                 <img src="/assets/images/blog/avt1.jpg" alt="AI-Mint" />
@@ -149,14 +149,17 @@ export default function BlogSingle() {
                                 </div>
 
                                 <div className="col-xl-3 col-md-12">
-                                    <EventSidebar></EventSidebar>
+                                    <EventSidebar
+                                        title="WaveHack"
+                                        id="wavehack-global"
+                                    ></EventSidebar>
                                 </div>
                             </div>
                         </div>
                     </section>
                     {/* end Blog single */}
                     {/* Action */}
-                    <section className="tf-section action">
+                    {/* <section className="tf-section action">
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">
@@ -170,7 +173,7 @@ export default function BlogSingle() {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                 </div>
 
 
