@@ -70,7 +70,7 @@ export default function Contact() {
                                         {/* <div className="form-group">
                                             <textarea className="form-control" id="exampleFormControlTextarea1" rows={3} placeholder="Your message here" />
                                         </div> */}
-                                        <button type="submit" className="btn-action style-2"><span>Register</span></button>
+                                        <Link href={`/success?title=${title}&id=${id}`} className="btn-action style-2"><span>Register</span></Link>
                                     </form>
                                 </div>
                             </div>

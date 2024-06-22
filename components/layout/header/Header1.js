@@ -51,7 +51,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                                     {!isMobile && false &&  <Menu /> }
                                     <div className="button">
                                         <a className="btn-action" onClick={() => open()}>
-                                            {isConnected && address ? addressParse(address) : "Connect Identity"}
+                                            {isConnected && address ? addressParse(address) : "aptos.chomtana.eth"}
                                         </a>
                                     </div>
                                     <div className="mobile-button" onClick={handleMobileMenu}><span /></div>{/* /.mobile-button */}

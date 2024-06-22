@@ -20,13 +20,13 @@ export default function BlogGrid() {
                                 <div className="col-xl-4 col-md-6 col-12">
                                     <div className="blog-box">
                                         <div className="blog-img">
-                                            <Link href="/blog-single/ivs-crypto">
-                                                <img src="/assets/images/events/ivs.webp" alt="AI-Mint" style={blogImgStyle} />
+                                            <Link href="/blog-single/ivs-demo">
+                                                <img src="/assets/images/events/ivs-demo.avif" alt="AI-Mint" style={blogImgStyle} />
                                             </Link>
                                         </div>
                                         <div className="blog-content">
-                                            <ul className="meta"><li><Link href="/blog-single/ivs-crypto"><i className="fa fa-folder-open" />Conference</Link></li></ul>
-                                            <Link href="/blog-single/ivs-crypto" className="title h6">IVS Crypto 2024</Link>
+                                            <ul className="meta"><li><Link href="/blog-single/ivs-demo"><i className="fa fa-folder-open" />Conference</Link></li></ul>
+                                            <Link href="/blog-single/ivs-demo" className="title h6">IVS Demo Day</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -62,13 +62,13 @@ export default function BlogGrid() {
                                 <div className="col-xl-4 col-md-6 col-12">
                                     <div className="blog-box">
                                         <div className="blog-img">
-                                            <Link href="/blog-single/ivs-demo">
-                                                <img src="/assets/images/events/ivs-demo.avif" alt="AI-Mint" style={blogImgStyle} />
+                                            <Link href="/blog-single/ivs-crypto">
+                                                <img src="/assets/images/events/ivs.webp" alt="AI-Mint" style={blogImgStyle} />
                                             </Link>
                                         </div>
                                         <div className="blog-content">
-                                            <ul className="meta"><li><Link href="/blog-single/ivs-demo"><i className="fa fa-folder-open" />Conference</Link></li></ul>
-                                            <Link href="/blog-single/ivs-demo" className="title h6">IVS Demo Day</Link>
+                                            <ul className="meta"><li><Link href="/blog-single/ivs-crypto"><i className="fa fa-folder-open" />Conference</Link></li></ul>
+                                            <Link href="/blog-single/ivs-crypto" className="title h6">IVS Crypto 2024</Link>
                                         </div>
                                     </div>
                                 </div>
