@@ -38,14 +38,20 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                             <div className="header__body d-flex justify-content-between">
                                 <div className="header__logo">
                                     <Link href="/">
-                                        <img id="site-logo" src="/assets/images/logo_aimint.png" alt="AI-Mint" width={''} height={50}/>
+                                        <div className="d-flex align-items-center gap-3">
+                                            <img id="site-logo" src="/assets/images/aptoslogo.png" alt="AI-Mint" width={''} height={60} style={{ borderRadius: 200 }}/>
+                                            <div>
+                                                <div className="fs-24">Aptos Event</div>
+                                                <div className="fs-14">& ENS Gateway</div>
+                                            </div>
+                                        </div>
                                     </Link>
                                 </div>
                                 <div className="header__right">
                                     {!isMobile && false &&  <Menu /> }
                                     <div className="button">
                                         <a className="btn-action" onClick={() => open()}>
-                                            {isConnected && address ? addressParse(address) : "Connect Wallet"}
+                                            {isConnected && address ? addressParse(address) : "Connect Identity"}
                                         </a>
                                     </div>
                                     <div className="mobile-button" onClick={handleMobileMenu}><span /></div>{/* /.mobile-button */}

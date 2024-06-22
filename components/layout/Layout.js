@@ -10,7 +10,7 @@ import Footer2 from './footer/Footer2'
 import Header1 from "./header/Header1"
 import Header2 from './header/Header2'
 import Header3 from './header/Header3'
-export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, children, imgNum }) {
+export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, breadcrumbDescription, children, imgNum }) {
     const [scroll, setScroll] = useState(0)
     // Moblile Menu
     const [isMobileMenu, setMobileMenu] = useState(false)
@@ -37,7 +37,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
             {headerStyle == 3 ? <Header3 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
 
 
-            {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} imgNum={imgNum} />}
+            {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} breadcrumbDescription={breadcrumbDescription} imgNum={imgNum} />}
 
             {children}
 

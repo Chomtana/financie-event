@@ -52,7 +52,7 @@ export default function BlogSingle() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="blog-content related-post">
+                                        <div className="blog-content related-post d-none">
                                             <div className="prev">
                                                 <img src="/assets/images/blog/related.jpg" alt="AI-Mint" />
                                                 <div className="action-right">
