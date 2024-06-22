@@ -9,7 +9,7 @@ export default function EventSidebar({ price = 'FREE', title = '', id = '' }) {
 
         <p className="fs-18 mt-3"><b>Price: {price}</b></p>
 
-        <Link href={`/join?title=${title}&id=${id}`} className="btn-action style-2 w-100 text-center" data-aos="fade-up" data-aos-duration={1200}>
+        <Link href={`/success?title=${title}&id=${id}`} className="btn-action style-2 w-100 text-center" data-aos="fade-up" data-aos-duration={1200}>
           Join
         </Link>
       </div>
