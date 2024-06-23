@@ -8,11 +8,9 @@ export default function Footer1() {
                 <div className="container">
                     <div className="row">
                         <div className="footer__body">
-                            <img src="/assets/images/aptoslogo.png" alt="AI-Mint" data-aos="fade-down" height={120} style={{ borderRadius: 200 }} />
+                            <img src="/assets/images/e.png" alt="AI-Mint" data-aos="fade-down" height={120} style={{ borderRadius: 200 }} />
                             <p className="desc fs-18" data-aos="fade-up">
-                                Aptos Event helps onboard people to Web 3 through both online and offline crypto events.
-                                Participants are rewarded with POAP and additional on-chain rewards.
-                                Thanks to our Aptos ENS Gateway, these rewards are interoperable between the Aptos and Ethereum ecosystems.
+                                FiNANCiEイベントは、オンラインおよびオフラインのイベントを通じて人々をWeb3にオンボードするのを助けます。参加者はPOAPや追加のオンチェーン報酬を受け取ります。FiNANCiEポイントで購入されたコミュニティトークンの保有者には、限定イベントが予約されています。
                             </p>
                             {/* <ul className="social">
                                 <li data-aos="fade-up" data-aos-duration={1200}><Link href="#"><i className="fab fa-twitter" /></Link>

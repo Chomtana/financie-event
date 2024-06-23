@@ -20,6 +20,34 @@ export default function BlogGrid() {
                                 <div className="col-xl-4 col-md-6 col-12">
                                     <div className="blog-box">
                                         <div className="blog-img">
+                                            <Link href="/blog-single/ivs-party">
+                                                <img src="/assets/images/events/ivs-party.webp" alt="AI-Mint" style={blogImgStyle} />
+                                            </Link>
+                                        </div>
+                                        <div className="blog-content">
+                                            <ul className="meta"><li><Link href="/blog-single/ivs-party"><i className="fa fa-folder-open" />Party</Link></li></ul>
+                                            <Link href="/blog-single/ivs-party" className="title h6">IVS VIP Exclusive Party</Link>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col-xl-4 col-md-6 col-12">
+                                    <div className="blog-box">
+                                        <div className="blog-img">
+                                            <Link href="/blog-single/exclusive-party">
+                                                <img src="/assets/images/events/exclusive-party.webp" alt="AI-Mint" style={blogImgStyle} />
+                                            </Link>
+                                        </div>
+                                        <div className="blog-content">
+                                            <ul className="meta"><li><Link href="/blog-single/exclusive-party"><i className="fa fa-folder-open" />Party</Link></li></ul>
+                                            <Link href="/blog-single/exclusive-party" className="title h6">FiNANCiE Exclusive Party</Link>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col-xl-4 col-md-6 col-12">
+                                    <div className="blog-box">
+                                        <div className="blog-img">
                                             <Link href="/blog-single/ivs-demo">
                                                 <img src="/assets/images/events/ivs-demo.avif" alt="AI-Mint" style={blogImgStyle} />
                                             </Link>
@@ -73,34 +101,6 @@ export default function BlogGrid() {
                                     </div>
                                 </div>
 
-                                <div className="col-xl-4 col-md-6 col-12">
-                                    <div className="blog-box">
-                                        <div className="blog-img">
-                                            <Link href="/blog-single/aptos-world-tour">
-                                                <img src="/assets/images/events/aptosworldtour.avif" alt="AI-Mint" style={blogImgStyle} />
-                                            </Link>
-                                        </div>
-                                        <div className="blog-content">
-                                            <ul className="meta"><li><Link href="/blog-single/aptos-world-tour"><i className="fa fa-folder-open" />Conference</Link></li></ul>
-                                            <Link href="/blog-single/aptos-world-tour" className="title h6">Aptos World Tour - Taipei</Link>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col-xl-4 col-md-6 col-12">
-                                    <div className="blog-box">
-                                        <div className="blog-img">
-                                            <Link href="/blog-single/aptos-seoul-hack">
-                                                <img src="/assets/images/events/seoul.avif" alt="AI-Mint" style={blogImgStyle} />
-                                            </Link>
-                                        </div>
-                                        <div className="blog-content">
-                                            <ul className="meta"><li><Link href="/blog-single/aptos-seoul-hack"><i className="fa fa-folder-open" />Hackathon</Link></li></ul>
-                                            <Link href="/blog-single/aptos-seoul-hack" className="title h6">Aptos Seoul Hack</Link>
-                                        </div>
-                                    </div>
-                                </div>
-
                                 <div className="col-12">
                                     <div className="load-more center">
                                         <Link id="loadmore" className="btn-action" href="#">
@@ -119,10 +119,10 @@ export default function BlogGrid() {
                                 <div className="col-12">
                                     <div className="action__body" data-aos="fade-up">
                                         <div className="block-text">
-                                            <h3 className="mb-13">Looking for Aptos ENS Gateway?</h3>
-                                            <p className="fs-21 mb-7">Click the button to enter the Aptos ENS Gateway management UI</p>
+                                            <h3 className="mb-13">Download FiNANCiE App</h3>
+                                            <p className="fs-21 mb-7">Web3時代におけるトークンプラットフォーム</p>
                                         </div>
-                                        <Link href="https://aptos-ens.chom.dev" target="_blank" className="btn-action style-2">Enter</Link>
+                                        <Link href="https://financie.jp" target="_blank" className="btn-action style-2">Download</Link>
                                     </div>
                                 </div>
                             </div>

@@ -67,10 +67,10 @@ export default function HeroSlider1() {
                     <div className="row">
                         <div className="col-xl-6 col-md-6 col-12">
                             <div className="block-text pt-24">
-                                <h6 className="sub-title mb-6" data-aos="fade-up">Aptos Event</h6>
-                                <h2 className="title mb-26" data-aos="fade-up">Get Reward for Joining Aptos Event</h2>
+                                <h6 className="sub-title mb-6" data-aos="fade-up">FiNANCiE Event</h6>
+                                <h2 className="title mb-26" data-aos="fade-up">イベントに参加して報酬をゲットしよう</h2>
                                 <p className="desc mb-43" data-aos="fade-up">
-                                    Easily check in to Aptos events using your ENS or Aptos name and receive rewards for participation.
+                                    FiNANCiEのイベントやコミュニティにトークンでチェックインして、限定報酬を手に入れよう。
                                 </p>
 
                                 {true ? (
@@ -79,8 +79,8 @@ export default function HeroSlider1() {
                                             Discover Events
                                         </Link>
 
-                                        <Link href="https://aptos-ens.chom.dev" target="_blank" className="btn-action style-2 text-center" data-aos="fade-up" data-aos-duration={1200}>
-                                            Aptos ENS Gateway
+                                        <Link href="https://financie.jp" target="_blank" className="btn-action style-2 text-center" data-aos="fade-up" data-aos-duration={1200}>
+                                            FiNANCiE App
                                         </Link>
                                     </div>
                                 ) : (
@@ -163,7 +163,7 @@ export default function HeroSlider1() {
                                         </SwiperSlide>
                                         <SwiperSlide>
                                             <div className="bg-2">
-                                                <img src="/assets/images/events/aptosworldtour.avif" alt="AI-Mint" style={{ 
+                                                <img src="/assets/images/events/ivs-party.webp" alt="AI-Mint" style={{ 
                                                         width: 500,
                                                         height: 320,
                                                         borderRadius: 10,
@@ -199,7 +199,7 @@ export default function HeroSlider1() {
                                         </SwiperSlide>
                                         <SwiperSlide>
                                             <div className="bg-2">
-                                                <img src="/assets/images/events/seoul.avif" alt="AI-Mint" style={{ 
+                                                <img src="/assets/images/events/exclusive-party.webp" alt="AI-Mint" style={{ 
                                                         width: 500,
                                                         height: 320,
                                                         borderRadius: 10,

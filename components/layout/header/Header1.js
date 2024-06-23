@@ -39,10 +39,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                                 <div className="header__logo">
                                     <Link href="/">
                                         <div className="d-flex align-items-center gap-3">
-                                            <img id="site-logo" src="/assets/images/aptoslogo.png" alt="AI-Mint" width={''} height={60} style={{ borderRadius: 200 }}/>
+                                            <img id="site-logo" src="/assets/images/e.png" alt="AI-Mint" width={''} height={60} style={{ borderRadius: 200 }}/>
                                             <div>
-                                                <div className="fs-24">Aptos Event</div>
-                                                <div className="fs-14">& ENS Gateway</div>
+                                                <div className="fs-24">FiNANCiE</div>
+                                                <div className="fs-14">Event</div>
                                             </div>
                                         </div>
                                     </Link>
@@ -51,7 +51,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                                     {!isMobile && false &&  <Menu /> }
                                     <div className="button">
                                         <a className="btn-action" onClick={() => open()}>
-                                            {isConnected && address ? addressParse(address) : "aptos.chomtana.eth"}
+                                            {isConnected && address ? addressParse(address) : "Connect Wallet"}
                                         </a>
                                     </div>
                                     <div className="mobile-button" onClick={handleMobileMenu}><span /></div>{/* /.mobile-button */}

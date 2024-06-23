@@ -6,8 +6,8 @@ import "/public/assets/dist/swiper-bundle.min.css"
 import { Web3ModalProvider } from "@/components/providers/Web3ModalProvider";
 import { CollectionProvider } from "@/components/providers/CollectionProvider";
 export const metadata = {
-  title: 'Aptos Event and ENS Gateway - Get Reward for Joining Aptos Event',
-  description: 'Mint Your Generative AI NFT, GPT4o, Dall-e 3.0',
+  title: 'FiNANCiE Event - Get Reward for Joining Event',
+  description: 'FiNANCiEイベントは、オンラインおよびオフラインのイベントを通じて人々をWeb3にオンボードするのを助けます。参加者はPOAPや追加のオンチェーン報酬を受け取ります。FiNANCiEポイントで購入されたコミュニティトークンの保有者には、限定イベントが予約されています。',
   
 }
 

@@ -11,7 +11,7 @@ export default function Contact() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Join Event" breadcrumbDescription={title}>
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="イベントに参加" breadcrumbDescription={title}>
                 <div>
                     <section className="tf-section contact">
                         <div className="container">
@@ -19,8 +19,8 @@ export default function Contact() {
                                 <div className="col-12">
                                     <div className="block-text center">
                                         <h1 className="heading-bg" data-aos="fade-in" data-aos-duration={1000}><span>JOIN</span></h1>
-                                        <h5 className="sub-title mb-10" data-aos="fade-up" data-aos-duration={1000}>Join Event</h5>
-                                        <h3 className="title mb-28" data-aos="fade-up" data-aos-duration={1000}>Enter your information<br/></h3>
+                                        <h5 className="sub-title mb-10" data-aos="fade-up" data-aos-duration={1000}>イベントに参加</h5>
+                                        <h3 className="title mb-28" data-aos="fade-up" data-aos-duration={1000}>情報を入力してください<br/></h3>
                                     </div>
                                 </div>
                             </div>
@@ -31,22 +31,22 @@ export default function Contact() {
                                             <li data-aos="fade-up">
                                                 <div className="icon"><i className="fas fa-bookmark" /></div>
                                                 <div className="info">
-                                                    <h5>Fill Once</h5>
-                                                    <p className="fs-18">Your only need to fill this form once</p>
+                                                    <h5>一度だけ入力</h5>
+                                                    <p className="fs-18">このフォームに一度だけ入力すればOK</p>
                                                 </div>
                                             </li>
                                             <li data-aos="fade-up">
                                                 <div className="icon"><i className="fas fa-gift" /></div>
                                                 <div className="info">
-                                                    <h5>Get Rewarded</h5>
-                                                    <p className="fs-18">Get POAP and more reward verifyable on-chain</p>
+                                                    <h5>報酬をゲット</h5>
+                                                    <p className="fs-18">POAPや他の報酬をオンチェーンで確認</p>
                                                 </div>
                                             </li>
                                             <li data-aos="fade-up">
                                                 <div className="icon"><i className="fas fa-users" /></div>
                                                 <div className="info">
-                                                    <h5>Share With Friend</h5>
-                                                    <p className="fs-18">Refer your friend to this event</p>
+                                                    <h5>友達とシェア</h5>
+                                                    <p className="fs-18">このイベントを友達に紹介しよう</p>
                                                 </div>
                                             </li>
                                         </ul>
@@ -93,8 +93,8 @@ export default function Contact() {
                                 <div className="col-12">
                                     <div className="action__body" data-aos="fade-up">
                                         <div className="block-text">
-                                            <h3 className="mb-13">Still curious?</h3>
-                                            <p className="fs-21 mb-7">Don't worry, click the button to go back and read more information</p>
+                                            <h3 className="mb-13">まだ気になりますか？</h3>
+                                            <p className="fs-21 mb-7">心配しないで、ボタンをクリックして戻り、詳しい情報を読んでください。</p>
                                         </div>
                                         <Link href={"/blog-single/" + id} className="btn-action style-2">Event Information</Link>
                                     </div>

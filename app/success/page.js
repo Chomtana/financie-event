@@ -18,8 +18,8 @@ export default function Contact() {
                             <div className="row">
                                 <div className="col-12">
                                     <div className="block-text center">
-                                        <h5 className="sub-title mb-10" data-aos="fade-up" data-aos-duration={1000}>Thank You</h5>
-                                        <h3 className="title" data-aos="fade-up" data-aos-duration={1000}>You have successfully joined<br/>{title}</h3>
+                                        <h5 className="sub-title mb-10" data-aos="fade-up" data-aos-duration={1000}>ありがとうございます</h5>
+                                        <h3 className="title" data-aos="fade-up" data-aos-duration={1000}>正常に参加が完了しました<br/>{title}</h3>
                                     </div>
                                 </div>
                             </div>
@@ -42,10 +42,10 @@ export default function Contact() {
                                 <div className="col-12">
                                     <div className="action__body" data-aos="fade-up">
                                         <div className="block-text">
-                                            <h3 className="mb-13">Discover More Event?</h3>
-                                            <p className="fs-21 mb-7">Click the button to discover more event</p>
+                                            <h3 className="mb-13">他のイベントを見つけますか?</h3>
+                                            <p className="fs-21 mb-7">ボタンをクリックして他のイベントを見つけましょう</p>
                                         </div>
-                                        <Link href={"/"} className="btn-action style-2">Discover Now</Link>
+                                        <Link href={"/"} className="btn-action style-2">Discover</Link>
                                     </div>
                                 </div>
                             </div>
