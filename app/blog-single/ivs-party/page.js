@@ -35,8 +35,7 @@ export default function BlogSingle() {
                                             <div className="action-group">
                                                 <div className="tag">
                                                     <ul className="tag">
-                                                        <li><Link className="fs-18" href="#">Aptos</Link></li>
-                                                        <li><Link className="fs-18" href="#">Conference</Link></li>
+                                                        <li><Link className="fs-18" href="#">Party</Link></li>
                                                         <li><Link className="fs-18" href="#">Japan</Link></li>
                                                     </ul>
                                                 </div>
@@ -156,8 +155,10 @@ export default function BlogSingle() {
                                 </div>
                                 <div className="col-xl-3 col-md-12">
                                     <EventSidebar
-                                        title="IVS Demo Day"
-                                        id="ivs-demo"
+                                        title="IVS VIP Exclusive Party"
+                                        id="ivs-party"
+                                        price="100"
+                                        token="IVSFI"
                                     ></EventSidebar>
                                 </div>
                             </div>

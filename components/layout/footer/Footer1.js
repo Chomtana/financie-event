@@ -20,9 +20,9 @@ export default function Footer1() {
                         <div className="footer_bottom">
                             <p className="fs-16">Copyright © {new Date().getFullYear()} Chomtana</p>
                             <ul>
-                                <li><Link href="https://app.akindo.io/communities/27DaQ3DEpUMXG011W/products/peAr4oG4DS0jx7pm" target="_blank">Akindo</Link></li>
-                                <li><Link href="https://aptos-event.chom.dev" target="_blank">Demo</Link></li>
-                                <li><Link href="https://github.com/Chomtana/aptos-event" target="_blank">GitHub</Link></li>
+                                <li><Link href="https://app.akindo.io/communities/zKk4rM4q3UX1K78w/products/ea8LDMWdNS8RAxB37" target="_blank">Akindo</Link></li>
+                                <li><Link href="https://financie-event.chom.dev" target="_blank">Demo</Link></li>
+                                <li><Link href="https://github.com/Chomtana/financie-event" target="_blank">GitHub</Link></li>
                             </ul>
                         </div>
                     </div>
